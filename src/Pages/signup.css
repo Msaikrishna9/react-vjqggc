@@ -1,0 +1,238 @@
+.sd-signup-main {
+  width: 100%;
+  display: flex;
+  font-family: barlow,sans-serif;
+}
+
+.sd-signup-main .s-left {
+  width: 50%;
+  padding: 60px;
+}
+
+.sd-signup-main .s-left h2 {
+  font-size: 28px;
+  color: #2f3193;
+  font-weight: 600;
+  margin-bottom: 4px!important;
+  line-height: 28px;
+}
+
+.sd-signup-main .s-left h3 {
+  letter-spacing: 0;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 35px!important;
+}
+
+.sd-signup-main .s-left form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sd-signup-main .s-left form .input {
+  width: 49%;
+  position: relative;
+}
+
+.sd-signup-main .s-left form .input label {
+  font-size: 14px;
+  margin-bottom: 7px;
+  font-weight: 400;
+}
+
+.sd-signup-main .s-left form .input input {
+  padding: 0 15px;
+  height: 42px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #eaeaea;
+  box-shadow: none;
+  outline: none;
+  font-weight: 400;
+}
+
+.sd-signup-main .s-left form .input {
+  width: 49%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.sd-signup-main .s-left form .input .sd-phone-voilet {
+  border: 1px solid #2f3293;
+  border-radius: 4px;
+}
+.sd-signup-main .s-left form .input .react-tel-input {
+  margin-bottom: 10px;
+}
+.sd-phone-voilet {
+  height: 44px;
+  box-shadow: none;
+  outline: none;
+}
+.react-tel-input {
+  font-family: roboto,sans-serif;
+  font-size: 15px;
+  position: relative;
+  width: 100%;
+}
+
+.react-tel-input .special-label {
+  position: absolute;
+  z-index: 1;
+  font-size: 13px;
+  left: 25px;
+  top: -7px;
+  background: #fff;
+  padding: 0 5px;
+}
+
+.sd-signup-main .s-left form .input .sd-phone-voilet input {
+  background: #fff!important;
+  background-color: #fff!important;
+}
+.sd-signup-main .s-left form .input .react-tel-input input {
+  padding: 18.5px 14px 18.5px 60px;
+}
+.sd-signup-main .s-left form .input input {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  font-weight: 400;
+}
+.react-tel-input .form-control {
+  font-size: 16px;
+  border-radius: 5px;
+  transition: box-shadow .25s ease,border-color .25s ease;
+  color: #495057;
+}
+
+.sd-signup-main .s-left form .input {
+  width: 49%;
+  position: relative;
+}
+
+.sd-signup-main .s-left form .input .sd-password-tt {
+  position: relative;
+}
+
+.sd-signup-main .s-left form .input .sd-password-tt img {
+  height: 17px;
+  position: absolute;
+  top: 4px;
+  right: -25px;
+  cursor: pointer;
+}
+
+.sd-signup-main .s-left form .input .sd-password-tt div {
+  display: none;
+  position: absolute;
+  top: -100px;
+  z-index: 3;
+  width: 300px;
+  padding: 10px;
+  left: 35px;
+  background: #555;
+  border: solid #555;
+  border-width: 1px 1px 9px;
+  color: #fff;
+  border-radius: 4px;
+  clip-path: polygon(100% 0,0 0,0 90%,11% 90%,16% 99%,21% 90%,75% 91%,100% 90%);
+}
+
+.sd-signup-main .s-left form .input .sd-password {
+  position: relative;
+}
+
+.sd-signup-main .s-left form .input .sd-password input {
+  padding-right: 30px;
+}
+
+.sd-signup-main .s-left form .input .sd-errorr {
+  margin-top: -15px;
+  color: red;
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  text-align: right;
+  height: 25px;
+}
+.sd-signup-main .s-left form p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sd-signup-main .s-left form .input .sd-password-tt .sd-scondary {
+  clip-path: polygon(100% 0,0 0,0 90%,28% 88%,34% 99%,39% 90%,75% 91%,100% 90%);
+}
+
+.sd-signup-main .s-left form .form-check {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.sd-signup-main .s-left form .form-check p {
+  font-size: 16px;
+  color: red;
+  font-weight: 400!important;
+  margin-bottom: 0;
+}
+
+.sd-signup-main .s-left form .form-check label {
+  margin: 0;
+  font-size: 16px;
+  padding-left: 0;
+  font-weight: 400;
+}
+
+.sd-signup-main .s-left form .form-check label a {
+  color: #2f3193;
+  font-weight: 600;
+  padding-left: 3px;
+}
+
+.sd-signup-main .s-left form button {
+  align-self: flex-start;
+  font-size: 14px;
+  white-space: nowrap;
+  font-weight: 600;
+  padding: 6px 13px;
+  float: left;
+  margin-bottom: 24px;
+  display: flex;
+  color: #fff;
+  box-shadow: none;
+  border: none;
+  background-color: #f58220;
+  align-items: center;
+}
+
+.sd-signup-main .s-left form button img {
+  height: 11px;
+  margin-left: 5px;
+}
+
+.sd-signup-main .s-left .s-left-bottom {
+  border-top: 1px solid #cccaca;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.sd-signup-main .s-left .s-left-bottom p {
+  margin: 15px 0 0;
+  font-size: 21px;
+  letter-spacing: 0;
+  color: #181818;
+}
+
+.sd-signup-main .s-left .s-left-bottom p a {
+  color: #2f3193;
+  font-weight: 600;
+  margin-left: 4px;
+}
